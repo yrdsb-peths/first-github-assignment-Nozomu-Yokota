@@ -6,7 +6,7 @@ public class Rectangle
     public Rectangle(int rectWidth, int rectHeight)
     {
         width = rectWidth;
-        height = rectHeight;
+        height - rectHeight;
     }
     
     public int getArea()
@@ -14,14 +14,14 @@ public class Rectangle
         return width * height;
     }
     
-    public int getHeight()
-    {
-        return height;
-    }
-    
     public int getWidth()
     {
         return width;
+    }
+    
+    public int getHeight()
+    {
+        return height;
     }
     
     public String toString()
